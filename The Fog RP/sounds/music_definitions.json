@@ -1,0 +1,32 @@
+{
+   "creative" : {
+      "event_name" : "music.game.creative",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "credits" : {
+      "event_name" : "music.game.credits",
+      "max_delay" : 0,
+      "min_delay" : 0
+   },
+   "end" : {
+      "event_name" : "music.game.end",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "game" : {
+      "event_name" : "music.game.fog",
+      "max_delay" : 600,
+      "min_delay" : 300
+   },
+   "soulsand_valley" : {
+      "event_name" : "music.game.soulsand_valley",
+      "max_delay" : 180,
+      "min_delay" : 60
+   },
+   "water" : {
+      "event_name" : "music.game.water",
+      "max_delay" : 20,
+      "min_delay" : 10
+   }
+}

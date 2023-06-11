@@ -1,0 +1,9 @@
+{
+	"biomes": {
+		"default": {
+			"fog_identifier": "fog:fog_default_white",
+			"inherit_from_prior_fog": false,
+			"remove_all_prior_fog": true
+		}
+	}
+}

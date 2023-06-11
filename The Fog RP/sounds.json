@@ -1,0 +1,17 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "fog:xenophobia": {
+                "events": {
+                    "ambient": "mob.xenophobia.ambient",
+                    "angry": "mob.xenophobia.chasing",
+                    "death": "mob.xenophobia.death",
+                    "hurt": "mob.xenophobia.hurt",
+                    "step": "mob.xenophobia.step"
+                },
+                "pitch": [0.9, 1.1],
+                "volume": 7
+            }
+        }
+    }
+}

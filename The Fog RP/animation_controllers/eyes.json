@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.eyes.billboard": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"flying"
+					],
+					"transitions": [
+						{
+							"puffing": "query.is_invisible"
+						}
+					]
+				},
+				"puffing": {
+					"animations": [
+						"flying"
+					],
+					"particle_effects": [
+						{
+							"effect": "puff",
+							"locator": "puff"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.is_invisible"
+						}
+					]
+				}
+			}
+		}
+	}
+}

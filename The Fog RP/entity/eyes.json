@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fog:eyes",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"eyes0": "textures/entity/eyes/eye0",
+				"eyes1": "textures/entity/eyes/eye0"
+			},
+			"geometry": {
+				"default": "geometry.eyes"
+			},
+			"render_controllers": [
+				"controller.render.eyes"
+			],
+			"animations": {
+				"flying": "animation.eyes.billboard"
+			},
+			"animation_controllers": [
+				{
+					"billboard": "controller.animation.eyes.billboard"
+				}
+			],
+			"particle_effects": {
+				"puff": "fog:puff"
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+item.spawn_egg.entity.fog:eyes.name=Spawn Eyes
+entity.fog:eyes.name=Eyes
+item.spawn_egg.entity.fog:schizophrenia.name=Spawn Schizophrenia
+entity.fog:schizophrenia.name=Schizophrenia
+item.spawn_egg.entity.fog:paranoia.name=Spawn Paranoia
+entity.fog:paranoia.name=Paranoia
+item.spawn_egg.entity.fog:xenophobia.name=Spawn Xenophobia
+entity.fog:xenophobia.name=Xenophobia

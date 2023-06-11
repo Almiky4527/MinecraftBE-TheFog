@@ -1,0 +1,641 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xenophobia",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [
+					0,
+					1.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "Leg1",
+					"pivot": [
+						-4,
+						26,
+						-2
+					],
+					"rotation": [
+						0,
+						-30,
+						0
+					]
+				},
+				{
+					"name": "Leg11",
+					"parent": "Leg1",
+					"pivot": [
+						-4,
+						26,
+						-2
+					]
+				},
+				{
+					"name": "Calf",
+					"parent": "Leg11",
+					"pivot": [
+						-21,
+						0,
+						-3
+					],
+					"rotation": [
+						0,
+						0,
+						-3.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								-23,
+								0,
+								-4
+							],
+							"size": [
+								3,
+								8,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						},
+						{
+							"origin": [
+								-24,
+								8,
+								-4
+							],
+							"size": [
+								5,
+								10,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						},
+						{
+							"origin": [
+								-24,
+								18,
+								-5
+							],
+							"size": [
+								5,
+								14,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							]
+						}
+					]
+				},
+				{
+					"name": "Thigh",
+					"parent": "Leg11",
+					"pivot": [
+						-4,
+						25,
+						-1
+					],
+					"rotation": [
+						0,
+						0,
+						20
+					],
+					"cubes": [
+						{
+							"origin": [
+								-27,
+								24,
+								-5
+							],
+							"size": [
+								12,
+								5,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							]
+						},
+						{
+							"origin": [
+								-15,
+								24,
+								-4
+							],
+							"size": [
+								12,
+								5,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						}
+					]
+				},
+				{
+					"name": "Leg2",
+					"pivot": [
+						4,
+						26,
+						-2
+					],
+					"rotation": [
+						0,
+						30,
+						0
+					]
+				},
+				{
+					"name": "Leg22",
+					"parent": "Leg2",
+					"pivot": [
+						4,
+						26,
+						-2
+					]
+				},
+				{
+					"name": "Calf2",
+					"parent": "Leg22",
+					"pivot": [
+						21,
+						0,
+						-3
+					],
+					"rotation": [
+						0,
+						0,
+						3.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								20,
+								0,
+								-4
+							],
+							"size": [
+								3,
+								8,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								19,
+								8,
+								-4
+							],
+							"size": [
+								5,
+								10,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								19,
+								18,
+								-5
+							],
+							"size": [
+								5,
+								14,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "Thigh2",
+					"parent": "Leg22",
+					"pivot": [
+						4,
+						25,
+						-1
+					],
+					"rotation": [
+						0,
+						0,
+						-20
+					],
+					"cubes": [
+						{
+							"origin": [
+								15,
+								24,
+								-5
+							],
+							"size": [
+								12,
+								5,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								3,
+								24,
+								-4
+							],
+							"size": [
+								12,
+								5,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "Leg3",
+					"pivot": [
+						4,
+						26,
+						4
+					],
+					"rotation": [
+						0,
+						-40,
+						0
+					]
+				},
+				{
+					"name": "Leg33",
+					"parent": "Leg3",
+					"pivot": [
+						4,
+						26,
+						4
+					]
+				},
+				{
+					"name": "Calf3",
+					"parent": "Leg33",
+					"pivot": [
+						21,
+						0,
+						5
+					],
+					"rotation": [
+						0,
+						0,
+						3.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								20,
+								0,
+								3
+							],
+							"size": [
+								3,
+								8,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								19,
+								8,
+								3
+							],
+							"size": [
+								5,
+								10,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								19,
+								18,
+								2
+							],
+							"size": [
+								5,
+								14,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "Thigh3",
+					"parent": "Leg33",
+					"pivot": [
+						4,
+						25,
+						3
+					],
+					"rotation": [
+						0,
+						0,
+						-20
+					],
+					"cubes": [
+						{
+							"origin": [
+								15,
+								24,
+								2
+							],
+							"size": [
+								12,
+								5,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							],
+							"mirror": true
+						},
+						{
+							"origin": [
+								3,
+								24,
+								3
+							],
+							"size": [
+								12,
+								5,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "Leg4",
+					"pivot": [
+						-4,
+						26,
+						4
+					],
+					"rotation": [
+						0,
+						40,
+						0
+					]
+				},
+				{
+					"name": "Leg44",
+					"parent": "Leg4",
+					"pivot": [
+						-4,
+						26,
+						4
+					]
+				},
+				{
+					"name": "Calf4",
+					"parent": "Leg44",
+					"pivot": [
+						-21,
+						0,
+						5
+					],
+					"rotation": [
+						0,
+						0,
+						-3.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								-23,
+								0,
+								3
+							],
+							"size": [
+								3,
+								8,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						},
+						{
+							"origin": [
+								-24,
+								8,
+								3
+							],
+							"size": [
+								5,
+								10,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						},
+						{
+							"origin": [
+								-24,
+								18,
+								2
+							],
+							"size": [
+								5,
+								14,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							]
+						}
+					]
+				},
+				{
+					"name": "Thigh4",
+					"parent": "Leg44",
+					"pivot": [
+						-4,
+						25,
+						3
+					],
+					"rotation": [
+						0,
+						0,
+						20
+					],
+					"cubes": [
+						{
+							"origin": [
+								-27,
+								24,
+								2
+							],
+							"size": [
+								12,
+								5,
+								5
+							],
+							"uv": [
+								-3,
+								-3
+							]
+						},
+						{
+							"origin": [
+								-15,
+								24,
+								3
+							],
+							"size": [
+								12,
+								5,
+								3
+							],
+							"uv": [
+								-1,
+								-1
+							]
+						}
+					]
+				},
+				{
+					"name": "Torso",
+					"pivot": [
+						0,
+						24,
+						2
+					],
+					"cubes": [
+						{
+							"origin": [
+								-4,
+								22,
+								-6
+							],
+							"size": [
+								8,
+								6,
+								12
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Torso",
+					"pivot": [
+						0,
+						25,
+						-6
+					],
+					"rotation": [
+						5,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								23,
+								-14
+							],
+							"size": [
+								6,
+								2,
+								8
+							],
+							"uv": [
+								36,
+								53
+							]
+						},
+						{
+							"origin": [
+								-3,
+								25,
+								-14
+							],
+							"size": [
+								6,
+								3,
+								8
+							],
+							"uv": [
+								36,
+								40
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

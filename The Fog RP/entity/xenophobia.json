@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fog:xenophobia",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/xenophobia"
+			},
+			"geometry": {
+				"default": "geometry.xenophobia"
+			},
+			"animations": {
+				"walk": "animation.xenophobia.walk",
+				"look_at_target": "animation.xenophobia.look_at_target",
+				"bob": "animation.xenophobia.bob"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					"bob"
+				]
+			},
+			"render_controllers": [
+				"controller.render.xenophobia"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

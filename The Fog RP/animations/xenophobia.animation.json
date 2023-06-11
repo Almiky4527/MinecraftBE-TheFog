@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xenophobia.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"Leg11": {
+					"rotation": [
+						0,
+						"math.cos(query.anim_time*40)*25",
+						"math.max(math.sin(query.anim_time*40+45)*25,0)"
+					]
+				},
+				"Leg22": {
+					"rotation": [
+						0,
+						"math.cos(query.anim_time*40)*25",
+						"-math.max(math.sin(query.anim_time*40+180)*25,0)"
+					]
+				},
+				"Leg33": {
+					"rotation": [
+						0,
+						"-math.cos(query.anim_time*40)*15",
+						"-math.max(math.sin(query.anim_time*40)*25,0)"
+					]
+				},
+				"Leg44": {
+					"rotation": [
+						0,
+						"-math.cos(query.anim_time*40)*15",
+						"math.max(math.sin(query.anim_time*40+180+45)*25,0)"
+					]
+				}
+			}
+		},
+		"animation.xenophobia.look_at_target": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": [
+						"query.target_x_rotation*0.5",
+						"query.target_y_rotation*0.8",
+						0
+					]
+				}
+			}
+		},
+		"animation.xenophobia.bob": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": [
+						"math.sin(query.anim_time*25)*5",
+						0,
+						0
+					]
+				},
+				"Thigh": {
+					"rotation": [
+						0,
+						0,
+						"-math.cos(query.anim_time*30+90)*3"
+					],
+					"position": [
+						0,
+						"-math.sin(query.anim_time*30)",
+						0
+					]
+				},
+				"Thigh2": {
+					"rotation": [
+						0,
+						0,
+						"math.cos(query.anim_time*30+90)*3"
+					],
+					"position": [
+						0,
+						"-math.sin(query.anim_time*30)",
+						0
+					]
+				},
+				"Thigh3": {
+					"rotation": [
+						0,
+						0,
+						"math.cos(query.anim_time*30+90)*3"
+					],
+					"position": [
+						0,
+						"-math.sin(query.anim_time*30)",
+						0
+					]
+				},
+				"Thigh4": {
+					"rotation": [
+						0,
+						0,
+						"-math.cos(query.anim_time*30+90)*3"
+					],
+					"position": [
+						0,
+						"-math.sin(query.anim_time*30)",
+						0
+					]
+				},
+				"Torso": {
+					"position": [
+						0,
+						"-math.sin(query.anim_time*30)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

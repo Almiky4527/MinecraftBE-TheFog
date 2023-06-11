@@ -1,0 +1,110 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fog:eyes",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"fog:eyes_start_despawning": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "invisibility",
+							"duration": 5,
+							"visible": false
+						}
+					]
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"time": 1,
+					"time_down_event": {
+						"event": "fog:eyes_despawn"
+					}
+				}
+			},
+			"fog:eyes_instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"fog:eyes_variant_0": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"fog:eyes_variant_1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"mob",
+					"eyes"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 2.7
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "any",
+						"deals_damage": false,
+						"on_damage": {
+							"event": "fog:eyes_puff"
+						}
+					}
+				]
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			}
+		},
+		"events": {
+			"fog:eyes_puff": {
+				"add": {
+					"component_groups": [
+						"fog:eyes_start_despawning"
+					]
+				}
+			},
+			"fog:eyes_despawn": {
+				"add": {
+					"component_groups": [
+						"fog:eyes_instant_despawn"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"fog:eyes_variant_0"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"fog:eyes_variant_1"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,252 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.xenophobia.ambient": {
+			"category": "hostile",
+			"sounds": [
+				/*
+				{
+					"name": "sounds/mob/enderdragon/growl4", // 1 - 4
+					"volume": 10,
+					"pitch": 0.5
+				}
+				*/
+				{
+					"name": "sounds/mob/hoglin/angry3", // 1 - 5
+					"volume": 10,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/angry4", // 1 - 5
+					"volume": 10,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/angry5", // 1 - 5
+					"volume": 10,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/angry6", // 1 - 5
+					"volume": 10,
+					"pitch": 0.5
+				}
+				
+			]
+		},
+		"mob.xenophobia.chasing": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/hoglin/howl4",
+					"volume": 15,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/howl5",
+					"volume": 15,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/enderdragon/growl3", // 1 - 4
+					"volume": 15,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/enderdragon/growl4", // 1 - 4
+					"volume": 15,
+					"pitch": 0.5
+				}
+			]
+		},
+		"mob.xenophobia.hurt": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/hoglin/hurt1",
+					"volume": 8,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/hurt3",
+					"volume": 8,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/hurt4",
+					"volume": 8,
+					"pitch": 0.5
+				}
+				
+			]
+		},
+		"mob.xenophobia.death": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/hoglin/death1",
+					"volume": 8,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/death2",
+					"volume": 8,
+					"pitch": 0.5
+				},
+				{
+					"name": "sounds/mob/hoglin/death3",
+					"volume": 8,
+					"pitch": 0.5
+				}
+			]
+		},
+		"mob.xenophobia.step": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/sheep/step1", // 1 - 5
+					"volume": 5,
+					"pitch": 0.6
+				},
+				{
+					"name": "sounds/mob/sheep/step2", // 1 - 5
+					"volume": 5,
+					"pitch": 0.6
+				},
+				{
+					"name": "sounds/mob/sheep/step3", // 1 - 5
+					"volume": 5,
+					"pitch": 0.6
+				},
+				{
+					"name": "sounds/mob/sheep/step4", // 1 - 5
+					"volume": 5,
+					"pitch": 0.6
+				},
+				{
+					"name": "sounds/mob/sheep/step5", // 1 - 5
+					"volume": 5,
+					"pitch": 0.6
+				}
+			]
+		},
+
+		// *** Music ***
+
+		"music.game" : {
+			"__use_legacy_max_distance" : true,
+			"category" : "music",
+			"sounds" : [
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/calm1",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/calm2",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/calm3",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/hal1",
+					"stream" : true,
+					"volume" : 0.10
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/hal2",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/hal3",
+					"stream" : true,
+					"volume" : 0.10
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/hal4",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/nuance1",
+					"stream" : true,
+					"volume" : 0.30
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/nuance2",
+					"stream" : true,
+					"volume" : 0.30
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/piano1",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/piano2",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/piano3",
+					"stream" : true,
+					"volume" : 0.20
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/one_more_day",
+					"stream" : true,
+					"volume" : 0.40
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/floating_dream",
+					"stream" : true,
+					"volume" : 0.40
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/left_to_bloom",
+					"stream" : true,
+					"volume" : 0.40
+				},
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/comforting_memories",
+					"stream" : true,
+					"volume" : 0.40
+				}
+			]
+      	},
+		"music.game.fog" : {
+			"__use_legacy_max_distance" : true,
+			"category" : "music",
+			"sounds" : [
+				
+				{
+					"load_on_low_memory" : true,
+					"name" : "sounds/music/game/end/end",
+					"stream" : true,
+					"volume" : 0.40
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "fog:paranoia",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:weight": {
+					"default": 20
+				},
+				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_on_block_filter": [
+					"grass",
+					"dirt",
+					"gravel",
+					"sand",
+					"sandstone",
+					"stone"
+				],
+				"minecraft:brightness_filter": {
+					"min": 10,
+					"max": 14,
+					"adjust_for_weather": true
+				},
+				"minecraft:density_limit": {
+					"surface": 1
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "monster"
+				}
+			},
+			{
+				"minecraft:weight": {
+					"default": 20
+				},
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_filter": [
+					"grass",
+					"dirt",
+					"gravel",
+					"sand",
+					"sandstone",
+					"stone",
+					"deepslate"
+				],
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 3,
+					"adjust_for_weather": false
+				},
+				"minecraft:density_limit": {
+					"underground": 1
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "monster"
+				}
+			}
+		]
+	}
+}
